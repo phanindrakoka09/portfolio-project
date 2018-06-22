@@ -1,0 +1,148 @@
+/* STYLES FOR WHOLE BODY*/
+* , *:before , *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.responsive-img {
+    height: auto;
+    max-width: 100%;
+}
+
+.text-hdr{
+    font-size: 7vw
+}
+
+.text-item{
+    font-size: 5vw;
+}
+
+/* END STYLES FOR WHOLE BODY*/
+
+header{
+    
+    margin-bottom: 30px;
+}
+
+.featured-work {
+    margin-top: 30px;
+}
+.content-header , .featured-item {
+    text-align: center;
+}
+.featured-item{
+    margin:30px 0;
+}
+
+.responsive-img , .text-item {
+    margin-top: 10px;
+}
+.header-image{
+    height: 95px;
+}
+.footer-content{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.hero-img {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+/* RESPONSIVENESS OF WHOLE PAGE */
+
+@media screen and (min-width:540px){
+    
+   
+    .text-hdr{
+        font-size: 6vw
+    }
+    
+    .text-item{
+        font-size: 4vw;
+    }
+}
+
+ @media screen and (min-width:720px){
+    .header{
+        justify-content: space-between;
+        margin: 0 35px;
+        text-align: right;
+    }
+    .header-logo{
+        text-align: left;
+    }
+    .text-hdr{
+        font-size: 5vw
+    }
+    
+    .text-item{
+        font-size: 3vw;
+    }
+} 
+
+@media screen and (min-width:820px){
+    .text-hdr{
+        font-size: 4vw
+    }
+    
+    .text-item{
+        font-size: 2vw;
+    }
+    
+}
+
+@media screen and (min-width:1020px){
+    .text-hdr{
+        font-size: 3vw
+    }
+    
+    
+    /* .text-item{
+        font-size: 1vw;
+    } */
+}
+
+@media screen and (min-width:750px){
+    .featured-item:first-child{
+        margin-left: 20px;
+    }
+    .featured-item:last-child{
+        margin-right: 20px;
+    }
+    .header-text{
+        margin-top:15px;
+        margin-right:50px;
+    }
+}
+
+
+@media screen and (max-width:749px){
+    .header-logo{
+        text-align: center;
+    }
+    .header-text{
+        text-align: center;
+    }
+}
+/* END RESPONSIVENESS OF WHOLE PAGE */
+
+@media screen and (min-width:750px){
+    .header,
+    .featured{
+        display: flex;
+        margin: 0 auto;
+        max-width: 1440px;
+    }
+    .featured-item{
+        margin: 30px 30px 30px 0;
+    }
+}
+
